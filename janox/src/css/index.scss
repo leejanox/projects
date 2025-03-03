@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'cookie';
+  src: url('/src/assets/fonts/CookieRun_Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+:root {
+  /* 🎨 배경 색상 */
+  --color-bg-dark: #1D0F29;
+  --color-bg-gradient: #2B124C;
+  --color-bg-deep-purple: #3E186A;
+
+  /* 🎨 텍스트 및 강조 색상 */
+  --color-text-white: #FFFFFF;
+  --color-text-neon-blue: #86e9ff;
+  --color-text-neon-pink: #ff6dc7;
+  --color-text-neon-yellow: #ffef92;
+  --color-text-orange: #ffd587;
+
+  /* 🎨 그래픽 요소 (게임 오브젝트 & 장식) */
+  --color-neon-green: #8aff76;
+  --color-neon-yellow: #ffff96;
+  --color-neon-orange: #ffd4b7;
+  --color-purple-violet: #b567ff;
+
+  /* 🎨 버튼 및 강조 요소 */
+  --color-btn-bg: #000000;
+  --color-btn-stripe: #f0d645;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'cookie', sans-serif;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+}
