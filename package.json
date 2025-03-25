@@ -1,0 +1,40 @@
+{
+  "private": true,
+  "packageManager": "yarn@4.7.0",
+  "workspaces": [
+    "apps/*",
+    "libs/*"
+  ],
+  "scripts": {
+    "start:e": "yarn workspace @janox/exhibition start",
+    "start:h": "yarn workspace @janox/haneum start",
+    "dev:e": "yarn workspace @janox/exhibition dev",
+    "dev:h": "yarn workspace @janox/haneum dev",
+    "lint:e": "yarn workspace @janox/exhibition lint",
+    "lint:h": "yarn workspace @janox/haneum lint",
+    "build:e": "yarn workspace @janox/exhibition build",
+    "build:h": "yarn workspace @janox/haneum build"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.4.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "@types/node": "^22.13.13",
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.0.4",
+    "@types/react-router-dom": "^5.3.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.23.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "sass-embedded": "^1.86.0",
+    "scss": "^0.2.4",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.28.0",
+    "vite": "^6.2.3"
+  }
+}

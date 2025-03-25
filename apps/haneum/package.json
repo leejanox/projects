@@ -1,0 +1,13 @@
+{
+  "name": "@janox/haneum",
+  "packageManager": "yarn@4.7.0",
+  "version": "0.0.1",
+  "main": "main.tsx",
+  "type": "module",
+  "scripts": {
+    "start": "echo haneum start",
+    "dev": "vite",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx src",
+    "build": "echo haneum build"
+  }
+}
