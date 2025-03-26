@@ -1,4 +1,3 @@
-import Town from "@components/town"
 
 function NodePage() {
   return (
