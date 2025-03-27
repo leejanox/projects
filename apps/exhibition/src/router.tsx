@@ -1,10 +1,10 @@
-import RipplePage2 from '@pages/ripplePage2'
+import ScrollingPage from '@pages/scrolling/scrollingPage'
 import {Routes,Route} from 'react-router-dom'
 
 const AppRouter = () => {
   return (
     <Routes>
-      <Route path='/*' element={<RipplePage2/>}/>
+      <Route path='/*' element={<ScrollingPage/>}/>
     </Routes>
   )
 }
