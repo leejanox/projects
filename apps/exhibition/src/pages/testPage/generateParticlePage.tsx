@@ -1,4 +1,4 @@
-import GenerateParticle from "@components/generateParticle"
+import GenerateParticle from "@components/test/generateParticle"
 import { OrbitControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber"
 
