@@ -1,9 +1,11 @@
+import MainLayout from "@components/layouts/mainLayout"
 
-
-const HomePage = () => {
+export default function HomePage() {
   return (
-    <div>HomePage</div>
+    <MainLayout>
+        <div className="home-content">
+            home
+        </div>
+    </MainLayout>
   )
 }
-
-export default HomePage

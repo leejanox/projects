@@ -1,13 +1,13 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
-import { BrowserRouter as Router } from "react-router-dom";
-import AppRouter from "./router";
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import App from './App.tsx'
+import { BrowserRouter } from 'react-router-dom'
 import './global.scss';
 
-createRoot(document.getElementById("root")!).render(
-    <StrictMode>
-        <Router>
-            <AppRouter/>
-        </Router>
-    </StrictMode>
+createRoot(document.getElementById('root')!).render(
+  <StrictMode>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </StrictMode>,
 )

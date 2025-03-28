@@ -1,12 +1,13 @@
 import {Routes,Route} from 'react-router-dom'
 import HomePage from '@pages/homePage'
 
-const AppRouter = () => {
+function App() {
   return (
     <Routes>
-        <Route path='/' element={<HomePage/>}/>
+      <Route path='/*' element={<HomePage/>}/>
     </Routes>
   )
 }
 
-export default AppRouter
+export default App
+//#E8F4F5 -> 바다색
