@@ -581,6 +581,8 @@ __metadata:
     "@react-three/fiber": "npm:^9.1.0"
     "@types/three": "npm:^0"
     three: "npm:^0.174.0"
+    three-csg-ts: "npm:^3.2.0"
+    three-stdlib: "npm:^2.35.14"
   languageName: unknown
   linkType: soft
 
@@ -3652,6 +3654,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"three-csg-ts@npm:^3.2.0":
+  version: 3.2.0
+  resolution: "three-csg-ts@npm:3.2.0"
+  peerDependencies:
+    "@types/three": ">= 0.154.0"
+    three: ">= 0.154.0"
+  checksum: 10c0/e809431c95d591dfd33c090c97d8dd7e9a769e7605d9b51f19974104a7bccbc321e465479316e405432800bd7dd6c873923494eb0da201395b8b4b26138db69a
+  languageName: node
+  linkType: hard
+
 "three-mesh-bvh@npm:^0.8.3":
   version: 0.8.3
   resolution: "three-mesh-bvh@npm:0.8.3"
@@ -3661,7 +3673,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"three-stdlib@npm:^2.35.6":
+"three-stdlib@npm:^2.35.14, three-stdlib@npm:^2.35.6":
   version: 2.35.14
   resolution: "three-stdlib@npm:2.35.14"
   dependencies:

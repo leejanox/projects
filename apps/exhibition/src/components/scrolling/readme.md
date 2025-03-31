@@ -1,1 +1,0 @@
-https://github.com/wrongakram/R3F-Chairs/blob/master/src/components/section.js

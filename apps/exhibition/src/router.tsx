@@ -1,10 +1,11 @@
-import ScrollingPage from '@pages/scrolling/scrollingPage'
+
+import IntroPage from '@pages/introTest/introPage'
 import {Routes,Route} from 'react-router-dom'
 
 const AppRouter = () => {
   return (
     <Routes>
-      <Route path='/*' element={<ScrollingPage/>}/>
+      <Route path='/*' element={<IntroPage/>}/>
     </Routes>
   )
 }
