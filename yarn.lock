@@ -592,6 +592,19 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@janox/te@workspace:apps/te":
+  version: 0.0.0-use.local
+  resolution: "@janox/te@workspace:apps/te"
+  dependencies:
+    "@react-three/drei": "npm:^10.0.5"
+    "@react-three/fiber": "npm:^9.1.0"
+    gsap: "npm:^3.12.7"
+    three: "npm:^0.174.0"
+    three-csg-ts: "npm:^3.2.0"
+    three-stdlib: "npm:^2.35.14"
+  languageName: unknown
+  linkType: soft
+
 "@jridgewell/gen-mapping@npm:^0.3.5":
   version: 0.3.8
   resolution: "@jridgewell/gen-mapping@npm:0.3.8"

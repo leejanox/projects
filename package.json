@@ -8,8 +8,10 @@
   "scripts": {
     "start:e": "yarn workspace @janox/exhibition start",
     "start:h": "yarn workspace @janox/haneum start",
+    "dev:t": "yarn workspace @janox/te dev",
     "dev:e": "yarn workspace @janox/exhibition dev",
     "dev:h": "yarn workspace @janox/haneum dev",
+    "lint:t": "yarn workspace @janox/te lint",
     "lint:e": "yarn workspace @janox/exhibition lint",
     "lint:h": "yarn workspace @janox/haneum lint",
     "build:e": "yarn workspace @janox/exhibition build",

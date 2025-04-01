@@ -1,0 +1,21 @@
+{
+  "name": "@janox/te",
+  "packageManager": "yarn@4.7.0",
+  "version": "0.0.1",
+  "main": "main.tsx",
+  "type": "module",
+  "scripts": {
+    "start": "echo exhibition start",
+    "dev": "vite",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx src",
+    "build": "echo exhibition build"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.0.5",
+    "@react-three/fiber": "^9.1.0",
+    "gsap": "^3.12.7",
+    "three": "^0.174.0",
+    "three-csg-ts": "^3.2.0",
+    "three-stdlib": "^2.35.14"
+  }
+}
