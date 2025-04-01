@@ -14,6 +14,7 @@ export default defineConfig(
                     alias:{
                         '@components':resolve(__dirname, "src/components"),
                         '@assets':resolve(__dirname, "src/assets"),
+                        '@three':resolve(__dirname, "src/three"),
                         '@shared':resolve(__dirname, "../../libs/shared")
                 }
             }

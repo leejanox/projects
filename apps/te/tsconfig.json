@@ -7,6 +7,7 @@
         "paths": {
             "@assets/*": ["src/assets/*"],
             "@components/*": ["src/components/*"],
+            "@three/*": ["src/three/*"],
         }
     },
     "include": ["src"]
