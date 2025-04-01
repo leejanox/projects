@@ -1,0 +1,21 @@
+#root, html,body{
+    width: 100%;
+    height: 100vh;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ca',sans-serif;
+}
+
+.canvas {
+    width: inherit;
+    height: inherit;
+}
+
+@font-face {
+    font-family: 'Ca';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2410-1@1.0/Cafe24Nyangi-W-v1.0.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
