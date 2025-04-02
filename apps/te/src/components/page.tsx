@@ -1,7 +1,11 @@
-import * as THREE from 'three'
+import { lazy, Suspense } from 'react'
+
+const LazyComponent = lazy(()=> import('./loading'))
 
 export const Page = () => {
   return (
-    <div>Page</div>
+    <Suspense fallback={<div>loading...</div>}>
+      <LazyComponent/>
+    </Suspense>
   )
 }

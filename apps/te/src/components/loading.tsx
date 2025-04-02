@@ -26,7 +26,7 @@ function Typing({text}) {
     return <>{displayText}</>
 }
 
-export const Loading = () => {
+const Loading = () => {
     
   return (
     <div className="loading">
@@ -37,3 +37,5 @@ export const Loading = () => {
     </div>
   )
 }
+
+export default Loading;
