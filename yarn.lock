@@ -615,8 +615,6 @@ __metadata:
     gsap: "npm:^3.12.7"
     react: "npm:^19.1.0"
     three: "npm:^0.174.0"
-    three-csg-ts: "npm:^3.2.0"
-    three-stdlib: "npm:^2.35.14"
   languageName: unknown
   linkType: soft
 

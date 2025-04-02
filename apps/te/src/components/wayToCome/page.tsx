@@ -4,6 +4,9 @@ const WayToComePage = () => {
   return (
     <main>
         <section className="3d_section">
+          <Canvas>
+            
+          </Canvas>
         </section>
     </main>
   )
